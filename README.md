@@ -1,9 +1,14 @@
 # TMDb-Movies-EDA
 Project: Investigate a Dataset - TMDb movies
+
 Table of Contents
+
 Introduction
+
 Data Wrangling
+
 Exploratory Data Analysis
+
 Conclusions
 
 # Introduction
@@ -12,47 +17,47 @@ In this report, I will be analysing tmdb-movies.csv. This data set contains info
 
 The dataset contains the following columns:
 
-id: an integer representing the unique ID for the movie within the dataset.
+`id:` an integer representing the unique ID for the movie within the dataset.
 
-imdb_id: a string representing the movie's ID on IMDB (if available).
+`imdb_id:` a string representing the movie's ID on IMDB (if available).
 
-popularity: a float representing Popularity score for the movie on TMDB.
+`popularity:` a float representing Popularity score for the movie on TMDB.
 
-budget: an integer representing the budget of the movie in USD.
+`budget:` an integer representing the budget of the movie in USD.
 
-revenue: an integer representing the revenue of the movie in USD.
+`revenue:` an integer representing the revenue of the movie in USD.
 
-original_title: a string representing original title of the movie.
+`original_title:` a string representing original title of the movie.
 
-cast: The cast of the movie containing multiple values separated by |.
+`cast:` The cast of the movie containing multiple values separated by |.
 
-homepage: a string representing the URL of the official website of the movie.
+`homepage:` a string representing the URL of the official website of the movie.
 
-director: a string representing the name of the direction of the movie.
+`director:` a string representing the name of the direction of the movie.
 
-tagline: a string representing the tagline of the movie, which is a short phrase or sentence used to advertise the film and capture the audience's attention.
+`tagline:` a string representing the tagline of the movie, which is a short phrase or sentence used to advertise the film and capture the audience's attention.
 
-keywords: The keywords associated with the movie separated by |.
+`keywords:` The keywords associated with the movie separated by |.
 
-overview: a string representing a short summary of the movie plot.
+`overview:` a string representing a short summary of the movie plot.
 
-runtime: an integer representing the runtime of the movie in minutes.
+`runtime:` an integer representing the runtime of the movie in minutes.
 
-genres: The list of genres the movies belongs to separated by |.
+`genres:` The list of genres the movies belongs to separated by |.
 
-production_companies: The list of companies that produced the movie separated by |.
+`production_companies:` The list of companies that produced the movie separated by |.
 
-release_date: The release date of the movie in format month/day/year.
+`release_date:` The release date of the movie in format month/day/year.
 
-vote_count: an integer representing the vote count of the movie.
+`vote_count:` an integer representing the vote count of the movie.
 
-vote_average: a float representing the average votes of the movie.
+`vote_average:` a float representing the average votes of the movie.
 
-release_year: The year of release of the movie.
+`release_year:` The year of release of the movie.
 
-budget_adj: The budget of the movie in terms of 2010 USD, accounting for inflation over time.
+`budget_adj:` The budget of the movie in terms of 2010 USD, accounting for inflation over time.
 
-revenue_adj: The revenue of the movie in terms of 2010 USD, accounting for inflation over time.
+`revenue_adj:` The revenue of the movie in terms of 2010 USD, accounting for inflation over time.
 
 # Question(s) for Analysis
 The aim of this analysis is to answer questions including:
