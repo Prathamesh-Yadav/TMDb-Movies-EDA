@@ -12,8 +12,8 @@ In this report, I will be analysing tmdb-movies.csv. This data set contains info
 
 The dataset contains the following columns:
 
-id: an integer representing the unique ID for the movie within the dataset.
-imdb_id: a string representing the movie's ID on IMDB (if available).
+# id: an integer representing the unique ID for the movie within the dataset.
+# imdb_id: a string representing the movie's ID on IMDB (if available).
 popularity: a float representing Popularity score for the movie on TMDB.
 budget: an integer representing the budget of the movie in USD.
 revenue: an integer representing the revenue of the movie in USD.
