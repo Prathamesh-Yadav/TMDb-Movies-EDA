@@ -1,7 +1,7 @@
 # TMDb-Movies-EDA
 Project: Investigate a Dataset - TMDb movies
 
-Table of Contents
+# Table of Contents
 
 Introduction
 
